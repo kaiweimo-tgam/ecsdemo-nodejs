@@ -20,7 +20,6 @@ spec:
       labels:
         app: ecsdemo-nodejs
         node-pool: computeoptimized
-        hello: world
     spec:
       containers:
       - image: brentley/ecsdemo-nodejs:latest
