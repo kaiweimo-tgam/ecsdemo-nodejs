@@ -20,6 +20,7 @@ spec:
       labels:
         app: ecsdemo-nodejs
         node-pool: default
+        hello: world
     spec:
       containers:
       - image: brentley/ecsdemo-nodejs:latest
